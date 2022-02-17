@@ -61,7 +61,6 @@ span {
 }
 .footer {
     display:flex;
-    justify-content:left;
 }
 #logo {
     padding-right:1rem;
@@ -156,9 +155,6 @@ footer {
     padding-top:1rem;
     padding-bottom:1rem;
 }
-.title {
-    display:block;
-}
 .footer-a-tag {
     color:black;
 }
@@ -177,7 +173,6 @@ footer {
 .users {
     background-color:white;
     border-radius:10px;
-
 }
 #first-name-two {
     display:block;
@@ -212,6 +207,14 @@ footer {
 }
 .join {
     padding-left:0px;
+}
+.nav, .nav:hover {
+    color:#595959;
+}
+.twitter-button {
+    padding-left:1.6rem;
+    padding-right:1.6rem;
+    font-weight:bold;
 }
 @media screen and (min-width: 768px) and (max-width:991px) {  /* medium screen */
     #hamburger-menu {
